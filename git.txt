@@ -1,0 +1,39 @@
+Q. How to commit  multiple files in a single go ?
+
+S.  git add file file file .... n	or git add .
+
+    git commit -m "message" file file file .. n  or git commit -m "message" .
+
+
+Q. How to see last commit that was done on repo?
+
+S. git show
+
+
+Q. how to see recent logs in Repo?
+
+S. 	git log
+
+	
+	git log --all		1st to recent ( all )
+
+	git log --oneline	commit-messages
+
+	git show CID		it shows details of CID alog with content
+
+	git log -p		it shows all commites along with content
+
+Note on empty folder -
+
+	git will never track an empty folder.
+
+
+ESC
+Q
+ctrl c
+ctrl z
+restart pc 
+
+
+        Git will focus on tracking file content and  not on directories
+

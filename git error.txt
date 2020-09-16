@@ -1,0 +1,8 @@
+ git pull origin master
+From https://github.com/thumuvikram/KST-RC-REPO
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+Fix :
+
+git pull origin master --allow-unrelated-histories
